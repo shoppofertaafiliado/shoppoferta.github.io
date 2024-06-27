@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4B0082;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 2em;
+            margin: 1em;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #4B0082;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .products, .affiliates {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product, .affiliate {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 1em;
+            padding: 1em;
+            width: 45%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1em;
+            margin: 0.5em 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #4B0082;
+            color: white;
+            border: none;
+            padding: 1em 2em;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site Pessoal</h1>
+    </header>
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#about">Sobre Mim</a>
+        <a href="#products">Produtos</a>
+        <a href="#affiliates">Empresas Afiliadas</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <section id="home">
+        <h2>Início</h2>
+        <p>Bem-vindo ao meu site pessoal onde você pode encontrar produtos incríveis e saber mais sobre as empresas com as quais sou afiliada.</p>
+    </section>
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Sou um afiliado dedicado, sempre em busca dos melhores produtos para recomendar. Fique à vontade para explorar meu site e descobrir ótimas ofertas.</p>
+    </section>
+    <section id="products" class="products">
+        <h2>Produtos</h2>
+        <div class="product">
+            <h3>Produto 1</h3>
+            <p>Descrição do produto 1.</p>
+            <a href="LINK_DE_AFILIADO_1">Compre agora</a>
+        </div>
+        <div class="product">
+            <h3>Produto 2</h3>
+            <p>Descrição do produto 2.</p>
+            <a href="LINK_DE_AFILIADO_2">Compre agora</a>
+        </div>
+        <!-- Adicione mais produtos conforme necessário -->
+    </section>
+    <section id="affiliates" class="affiliates">
+        <h2>Empresas Afiliadas</h2>
+        <div class="affiliate">
+            <h3>Empresa 1</h3>
+            <p>Informações sobre a empresa 1.</p>
+            <a href="LINK_DE_AFILIADO_EMPRESA_1">Visite o site</a>
+        </div>
+        <div class="affiliate">
+            <h3>Empresa 2</h3>
+            <p>Informações sobre a empresa 2.</p>
+            <a href="LINK_DE_AFILIADO_EMPRESA_2">Visite o site</a>
+        </div>
+        <!-- Adicione mais empresas conforme necessário -->
+    </section>
+    <section id="contact">
+        <h2>Contato</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Seu nome">
+            <input type="email" name="email" placeholder="Seu email">
+            <textarea name="message" rows="5" placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>Conecte-se comigo nas redes sociais:</p>
+        <p>
+            <a href="LINK_FACEBOOK" style="color:white;">Facebook</a> |
+            <a href="LINK_INSTAGRAM" style="color:white;">Instagram</a> |
+            <a href="LINK_TWITTER" style="color:white;">Twitter</a> |
+            <a href="LINK_LINKEDIN" style="color:white;">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+</html>
